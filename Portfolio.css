@@ -1,0 +1,109 @@
+body {
+    color: rgb(56, 56, 56);;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Bebas Neue, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.job {
+    margin-bottom: -6px;
+}
+
+#navbar {
+    width: 350px;  
+    background-color: #006d8c; 
+}
+li {
+    font-size: 20px;
+    font-weight: 500;  
+}
+
+.nav > li {
+    background-color: transparent;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(207, 207, 207);
+}
+
+.nav > li:hover {
+    
+    border-radius: 10px;
+    color: white;
+    box-shadow: #005269;
+}
+
+.nav > li:visited {
+    background-color: #005c75;
+    border-radius: 10px;
+}
+
+.mypic {
+    border: 5px solid rgb(231, 231, 231);
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-image: url(https://nickelodeonuniverse.com/wp-content/uploads/Sandy.png);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.mypic:hover {
+    border: 5px solid white;
+    
+    background-image: url(https://scontent.fwnp1-1.fna.fbcdn.net/v/t39.30808-6/309848447_5803970769627556_7761817813672821992_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=36v3bBzMaMgAX-JBplk&tn=1KLP-N1UesPPgl1s&_nc_ht=scontent.fwnp1-1.fna&oh=00_AT9fPF_osP3awyzq47sP5oai6JgFDJjsVRg42F10qx2tBA&oe=634E9F8F);
+}
+
+section {
+    border-width: 1px;
+    border-color: #b3b3b3;
+    width: 100%;
+    border-bottom-style: solid;
+    padding: 10%;
+    position: relative;
+    
+}
+
+#about {
+    padding-top: 30%;
+    padding-bottom: 30%;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 30px;
+}
+span {
+    color: #005269;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 500;  
+}
+
+a {
+    color: rgb(56, 56, 56);
+}
+
+a:hover {
+    color: #005c75;
+}
+
+.bi, .fab {
+    font-size: 48px;
+    margin-right: 30px;
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
